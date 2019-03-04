@@ -76,5 +76,8 @@ const verifyToken = async token => {
 };
 
 module.exports = {
-  verifyToken
+  verifyToken,
+  printMsg: function() {
+    console.log("Cogniot helper token is imported ");
+  }
 };
