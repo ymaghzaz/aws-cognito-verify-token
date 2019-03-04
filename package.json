@@ -1,0 +1,28 @@
+{
+  "name": "aws-cognito-verify-token",
+  "version": "1.0.1",
+  "description": "validate cognito token using nodejs ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ysfmag/aws-cognito-verify-token.git"
+  },
+  "keywords": [
+    "Node.js",
+    "AWS",
+    "Coginito"
+  ],
+  "author": "youssef maghzaz <y.maghzaz@gmail.com>",
+  "license": "IMT",
+  "bugs": {
+    "url": "https://github.com/ysfmag/aws-cognito-verify-token/issues"
+  },
+  "homepage": "https://github.com/ysfmag/aws-cognito-verify-token#readme",
+  "dependencies": {
+    "https": "^1.0.0",
+    "node-jose": "^1.1.2"
+  }
+}
